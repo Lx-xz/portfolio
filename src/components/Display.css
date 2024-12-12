@@ -1,0 +1,48 @@
+#Display {
+    background-color: #fff;
+    height: max-content;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1rem;
+
+    & h1 {
+        font-size: 2rem;
+    }
+
+    & h2 {
+        font-size: 1.2rem;
+    }
+
+    & #Images {
+        height: 15rem;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 1rem;
+
+        & img {
+            height: 100%;
+            border-radius: 0.4rem;
+            box-shadow: 0 0 0.7rem 0.05rem #888888;
+        }
+    }
+
+    & #Sites {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 1rem;
+
+        & img {
+            width: 32.5%;
+            border-radius: 0.4rem;
+            box-shadow: 0 0 0.7rem 0.05rem #888888;
+        }
+    }
+}
