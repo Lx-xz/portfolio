@@ -1,17 +1,17 @@
 import { Index } from "./pages/Index"
 
 import {
-    BrowserRouter as Router,
+    HashRouter,
     Routes,
     Route
 } from "react-router-dom"
 
 export const AppRoutes = () => {
     return (
-        <Router>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Index />} />
             </Routes>
-        </Router>
+        </HashRouter>
     )
 }
